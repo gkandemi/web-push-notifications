@@ -1,0 +1,90 @@
+const { uid } = require("uid");
+
+module.exports = {
+  categoryList: [
+    {
+      id: uid(),
+      title: "HTML 5",
+      class: "html5",
+      icon: "fa-html5",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "JavaScript",
+      class: "js",
+      icon: "fa-js",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "Vue",
+      class: "vuejs",
+      icon: "fa-vuejs",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "React",
+      class: "react",
+      icon: "fa-react",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "Node",
+      class: "node",
+      icon: "fa-node",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "AWS",
+      class: "aws",
+      icon: "fa-aws",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "SASS",
+      class: "sass",
+      icon: "fa-sass",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "CSS3",
+      class: "css",
+      icon: "fa-css3",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "Facebook Geliştiricileri",
+      class: "facebook",
+      icon: "fa-facebook",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "Twitter Geliştiricileri",
+      class: "twitter",
+      icon: "fa-twitter",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "Windows",
+      class: "microsoft",
+      icon: "fa-microsoft",
+      subscriberList: [],
+    },
+    {
+      id: uid(),
+      title: "macOS",
+      class: "apple",
+      icon: "fa-apple",
+      subscriberList: [],
+    },
+  ],
+};

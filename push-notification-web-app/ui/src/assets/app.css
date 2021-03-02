@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 65px;
+  background-color: #c0161b;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 2px solid #a91318;
+  margin-bottom: 40px;
+}
+
+.app {
+  text-align: center;
+}
+
+.app .categories {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.app .categories div {
+  cursor: default;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #324354;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.app .categories div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.app .categories div span i {
+  margin-right: 10px;
+}
+
+.app .categories div.html5:hover,
+.app .categories div.html5.selected {
+  background: #dc4b26;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #dc4b26),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #dc4b26 2%, white 90%);
+}
+
+.app .categories div.js:hover,
+.app .categories div.js.selected {
+  background: #f1d43b;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #f1d43b),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #f1d43b 2%, white 90%);
+}
+
+.app .categories div.vuejs:hover {
+  background: #3fb27f;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #3fb27f),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #3fb27f 2%, white 90%);
+}
+
+.app .categories div.react:hover {
+  background: #61dafb;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #61dafb),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #61dafb 2%, white 90%);
+}
+
+.app .categories div.aws:hover {
+  background: #f7981f;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #f7981f),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #f7981f 2%, white 90%);
+}
+
+.app .categories div.node:hover {
+  background: #73aa60;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #73aa60),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #73aa60 2%, white 90%);
+}
+
+.app .categories div.sass:hover {
+  background: #c76494;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #c76494),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #c76494 2%, white 90%);
+}
+
+.app .categories div.css:hover {
+  background: #254bdd;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #254bdd),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #254bdd 2%, white 90%);
+  color: #fff;
+}
+
+.app .categories div.facebook:hover {
+  background: #4867aa;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #4867aa),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #4867aa 2%, white 90%);
+  color: #fff;
+}
+
+.app .categories div.twitter:hover {
+  background: #1da1f2;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #1da1f2),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #1da1f2 2%, white 90%);
+  color: #fff;
+}
+
+.app .categories div.microsoft:hover {
+  background: #00a5f2;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #00a5f2),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #00a5f2 2%, white 90%);
+  color: #fff;
+}
+
+.app .categories div.apple:hover {
+  background: #ccc;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(2%, #ccc),
+    color-stop(90%, white)
+  );
+  background: linear-gradient(90deg, #ccc 2%, white 90%);
+}
+
+.app button {
+  padding: 5px 10px;
+  background-color: #00a5f2;
+  color: #fff;
+  font-weight: normal;
+  outline: none;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #0082bf;
+  cursor: pointer;
+}
+
+.app button.success {
+  background-color: #73aa60;
+  border: 1px solid #5c8c4b;
+}
+
+.app button:hover {
+  background-color: #0082bf;
+}
+
+.app button:active {
+  background-color: #26baff;
+}
+
+.app button.success:hover {
+  background-color: #5c8c4b;
+}
+
+.app button.success:active {
+  background-color: #90bc81;
+}
+/*# sourceMappingURL=app.css.map */
