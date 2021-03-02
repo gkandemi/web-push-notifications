@@ -1,6 +1,8 @@
-# Web Push Notification Nedir? Nasıl Kullanılır? | Netlify | Heroku ve daha fazlası
+![Web Push NotificatioN Nedir? Nasıl Kullanılır?](https://github.com/gkandemi/web-push-notifications/blob/main/web-push-notification-nedir-neden-kullanilir-nasil-kullanilir-kablosuzkedi-youtube-kanali.png)
 
-**Not :** Bu doküman kablosuzkedi youtube kanalı için hazırlanmıştır.
+## Web Push Notification Nedir? Nasıl Kullanılır? | Netlify | Heroku ve daha fazlası
+
+**Not :** Bu doküman kablosuzkedi youtube kanalı için hazırlanmıştır. Video içeriğine [buradan](https://youtu.be/9E-nTTW599s) erişebilirsiniz :)
 
 Bu dersimizde herhangi bir özel servis kullanmadan kendimize ait Native bir web push notification nasıl geliştiririz onu görüyoruz. Bunu yaparken 2 farklı bölüm ile ilerleyeceğiz. Birinci bölümde Push Notification için gerekli olan temel bilgileri aldıktan sonra **kategori bazlı nasıl bildirim gönderebiliriz?** sorusuna cevap verecek bir uygulama geliştiriyoruz.
 
