@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  //   background-color: #324354;
+}
+$html: #dc4b26;
+$css: #254bdd;
+$javascript: #f1d43b;
+$vue: #3fb27f;
+$react: #61dafb;
+$aws: #f7981f;
+$facebook: #4867aa;
+$twitter: #1da1f2;
+$sass: #c76494;
+$microsoft: #00a5f2;
+$apple: #ccc;
+$node: #73aa60;
+
+header {
+  height: 65px;
+  background-color: #c0161b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 2px solid darken($color: #c0161b, $amount: 5);
+  margin-bottom: 40px;
+}
+
+.app {
+  //   margin-top: 50px;
+  text-align: center;
+  .categories {
+    margin: 0 auto;
+    width: 700px;
+    div {
+      cursor: default;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #324354;
+      padding: 5px 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      span {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      &.html5:hover,
+      &.html5.selected {
+        background: $html;
+        background: linear-gradient(
+          90deg,
+          $html 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+      &.js:hover,
+      &.js.selected {
+        background: $javascript;
+        background: linear-gradient(
+          90deg,
+          $javascript 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+      &.vuejs:hover {
+        background: $vue;
+        background: linear-gradient(90deg, $vue 2%, rgba(255, 255, 255, 1) 90%);
+      }
+      &.react:hover {
+        background: $react;
+        background: linear-gradient(
+          90deg,
+          $react 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+      &.aws:hover {
+        background: $aws;
+        background: linear-gradient(90deg, $aws 2%, rgba(255, 255, 255, 1) 90%);
+      }
+      &.node:hover {
+        background: $node;
+        background: linear-gradient(
+          90deg,
+          $node 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+      &.sass:hover {
+        background: $sass;
+        background: linear-gradient(
+          90deg,
+          $sass 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+      &.css:hover {
+        background: $css;
+        background: linear-gradient(90deg, $css 2%, rgba(255, 255, 255, 1) 90%);
+        color: #fff;
+      }
+      &.facebook:hover {
+        background: $facebook;
+        background: linear-gradient(
+          90deg,
+          $facebook 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+        color: #fff;
+      }
+      &.twitter:hover {
+        background: $twitter;
+        background: linear-gradient(
+          90deg,
+          $twitter 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+        color: #fff;
+      }
+      &.microsoft:hover {
+        background: $microsoft;
+        background: linear-gradient(
+          90deg,
+          $microsoft 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+        color: #fff;
+      }
+      &.apple:hover {
+        background: $apple;
+        background: linear-gradient(
+          90deg,
+          $apple 2%,
+          rgba(255, 255, 255, 1) 90%
+        );
+      }
+    }
+  }
+  button {
+    padding: 5px 10px;
+    background-color: $microsoft;
+    color: #fff;
+    font-weight: normal;
+    outline: none;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid darken($color: $microsoft, $amount: 10);
+    &.success {
+      background-color: $node;
+      border: 1px solid darken($color: $node, $amount: 10);
+    }
+    cursor: pointer;
+    &:hover {
+      background-color: darken($color: $microsoft, $amount: 10);
+    }
+    &:active {
+      background-color: lighten($color: $microsoft, $amount: 10);
+    }
+    &.success:hover {
+      background-color: darken($color: $node, $amount: 10);
+    }
+    &.success:active {
+      background-color: lighten($color: $node, $amount: 10);
+    }
+  }
+}
